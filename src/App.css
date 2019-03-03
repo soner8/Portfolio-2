@@ -28,20 +28,22 @@ p {
 /*--------------------------LANDING PAGE--------------------------*/
 
 .App-landing {
+  color: #FFF;
   background-color: #000;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  color: #FFF;
+  position: relative;
   box-shadow: 0px 2px 20px 10px rgba(0,0,0,0.8);
 }
 
 .LandingPage h1 {
   font-size: calc(50px + (150 - 50) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bolder;
+  padding: 0 1rem 0 1rem;
 }
 
 .LandingPage span {
@@ -59,6 +61,8 @@ p {
   color: #777DA7; 
 }
 
+/*----------------------------------------------------------------*/
+
 /*-------------------------------BIO------------------------------*/
 
 .App-bio {
@@ -75,7 +79,7 @@ p {
   right: 0;
   bottom: 0;
   top: 0;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .BioPage span {
@@ -92,16 +96,16 @@ p {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 10;
+  padding: 2rem;
   box-shadow: 0px 2px 20px 10px rgba(0,0,0,0.8);
   box-shadow: 0px -2px 20px 10px rgba(0,0,0,0.8);
 }
 
-.SkillsPage {
-  padding: 3rem;
-}
-
 .SkillsPage b {
   color: #777DA7;
+  font-size: calc(2rem + (40 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .SkillsPage .arrows {
@@ -109,22 +113,73 @@ p {
 }
 
 .SkillsPage i {
+  font-size: calc(2rem + (65 - 32) * ((100vw - 300px) / (1600 - 300)));
   padding: 0.5rem;
+}
+
+.SkillsPage .icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------*/
+
+.App-projects {
+  color: #000;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2rem;
+}
+
+.ProjectsPage .quotes {
+  color: #777DA7;
+}
+
+.ProjectsPage h2 {
+  font-size: calc(2rem + (80 - 32) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.ProjectsPage a {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  transition: 0.5s color;
+}
+
+.ProjectsPage a:hover {
+  color: #777DA7;
+  text-decoration: none;
 }
 
 /*----------------------------------------------------------------*/
 
 /*----------------------------FOOTER------------------------------*/
 
+.App-footer {
+  background-color: #000;
+  box-shadow: 0px -2px 20px 10px rgba(0,0,0,0.8);
+  position: relative;
+  z-index: 10;
+}
+
 #footer a {
-  color: #000;
+  color: #FFF;
   padding: 0.5rem;
   transition: 0.5s color;
 }
 
 #footer a:hover {
+  color: #777DA7;
   text-decoration: none;
-  color: #777DA7; 
 }
 
 /*----------------------------------------------------------------*/

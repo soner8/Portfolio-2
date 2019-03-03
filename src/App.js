@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import LandingPage from './components/LandingPage';
 import BioPage from './components/BioPage';
 import SkillsPage from './components/SkillsPage';
+import ProjectsPage from './components/ProjectsPage';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -18,6 +19,9 @@ class App extends Component {
         </div>
         <div className="App-skills">
           <SkillsPage/>
+        </div>
+        <div className="App-projects">
+          <ProjectsPage/>
         </div>
         <div className="App-footer">
           <Footer/>
