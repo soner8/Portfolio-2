@@ -180,7 +180,6 @@ p {
   color: #FFF;
   padding: 0.5rem;
   transition: 0.5s color;
-  justify-content: center;
 }
 
 .footer a:hover {

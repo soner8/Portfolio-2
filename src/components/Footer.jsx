@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer py-3" id="footer">
-        <div className="icons">
+        <div className="icon-row">
           <a href="tel:1-613-668-7949">
             <i className="fas fa-mobile"></i>
           </a>
