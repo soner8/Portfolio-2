@@ -70,6 +70,7 @@ p {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .BioPage {
@@ -84,6 +85,33 @@ p {
 
 .BioPage span {
   color: #777DA7; 
+}
+
+@media only screen and (max-width: 1025px) {
+  .App-bio {
+    min-height: 50vh;
+  }
+  .BioPage {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .App-bio {
+    min-height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .App-bio {
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .App-bio {
+    min-height: 75vh;
+  }
 }
 
 /*----------------------------------------------------------------*/
@@ -121,6 +149,18 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .App-skills {
+    min-height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .App-skills {
+    min-height: 60vh;
+  }
 }
 
 /*----------------------------------------------------------------*/
