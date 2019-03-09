@@ -104,7 +104,7 @@ p {
 
 @media only screen and (max-width: 450px) {
   .App-bio {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 
@@ -132,7 +132,7 @@ p {
 
 .SkillsPage b {
   color: #777DA7;
-  font-size: calc(2rem + (40 - 32) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(2rem + (65 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .SkillsPage .arrows {
