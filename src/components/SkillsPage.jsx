@@ -14,6 +14,7 @@ class SkillsPage extends Component {
               <b>LANGUAGES</b>
               <div className="icon-container">
                 <i className="devicon-javascript-plain" />
+                <i className="devicon-java-plain" />
                 <i className="devicon-python-plain" />
                 <i className="devicon-ruby-plain" />
                 <i className="devicon-go-plain" />
@@ -21,7 +22,6 @@ class SkillsPage extends Component {
                 <i className="devicon-c-plain" />
                 <i className="devicon-csharp-plain" />
                 <i className="devicon-cplusplus-plain" />
-                <i className="devicon-java-plain" />
               </div>
             </div>
             <div className="Frontend">
