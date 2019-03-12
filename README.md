@@ -6,6 +6,12 @@ This project was conceived for two reasons:
 1) I wanted to gain more experience working with React and Components
 2) I wanted to test my knowledge of front-end, mobile-first design
 
+In order to kickstart this project, I opted to use React's Command Line Interface. This made it easy to focus on building my site rather than configuring it. 
+
+For deployment, I chose to use S3 on AWS. I chose S3 over other hosting platforms for two reasons:
+1) Easy Configuration
+2) Price
+
 ## Available Scripts
 
 In the project directory, you can run:
