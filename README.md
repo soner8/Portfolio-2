@@ -1,4 +1,10 @@
-# Portfolio Site
+# Portfolio Site 🌐
+
+## Background
+
+This project was conceived for two reasons: 
+1) I wanted to gain more experience working with React and Components
+2) I wanted to test my knowledge of front-end, mobile-first design
 
 ## Available Scripts
 
