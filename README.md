@@ -12,6 +12,10 @@ For deployment, I chose to use S3 on AWS. I chose S3 over other hosting platform
 1) Easy Configuration
 2) Price
 
+## Demo
+
+https://camslupeiks.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
